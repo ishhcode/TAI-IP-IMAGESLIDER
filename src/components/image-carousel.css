@@ -1,0 +1,52 @@
+.container{ 
+    width: 60%;
+    height: 500px;
+    background-color: black;
+}
+.containerInner{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.containerInner .left{
+    height: 100%;
+    flex: 5%;
+    background-color: rgb(0,0,0,0.6);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+.containerInner .center{
+    height: 100%;
+    flex: 90%;
+    display: grid;
+    place-items: center;
+    text-align: justify;
+    text-align-last: center;
+}
+h1{
+    font-size: 3rem;
+}
+    
+p{
+    font-size: 2rem;
+}
+h1, p{
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgba(255,255,255,0.4);
+    background-size: auto;
+}
+.containerInner .right{
+    height: 100%;
+    flex: 5%;
+    background-color: rgb(0,0,0,0.6);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
